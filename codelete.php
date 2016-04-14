@@ -27,7 +27,9 @@ $LoginPassword="";
     
 	
   mysql_query($sql,$con) ;
-  mysql_close($con); 
+  mysql_close($con);
+   
 ?>
+<a href="index.php">الرئيسية</a>
 </body>
 </html>

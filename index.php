@@ -50,7 +50,7 @@ text-align:center;
         <h3>  <a href="co_form.php">ادخال الشركات</a></h3>
          <h3> <a href="co_select.php">عرض الشركات</a></h3>
         <h3> <a href="select_coupdate.php">تعديل الشركات</a></h3>
-        <h3> <a href="select_coupdelete.php">حذف الشركات</a></h3>
+        <h3> <a href="select_codelete.php">حذف الشركات</a></h3>
 
         </div>
        
