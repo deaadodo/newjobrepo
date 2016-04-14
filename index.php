@@ -2,8 +2,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>index</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+<style>
+p{
+	
+font-size:48px;	
+font-weight:large;
+color:red;
+text-align:center;
+
+}
+
+
+
+</style>
 
 </head>
 
@@ -13,8 +26,7 @@
   
         <nav class="navbar navbar-inverse navbar-static-top" style="background-color:#CCC">
          <div class="container">
-            <div class="navbar-header">
-  <a href="index.php" style="font_color:pink; font-size:30px; text-align:center">الرئيسيه</a>
+  <p>الرئيسية</p>
  </nav>
 
       </div>
@@ -24,16 +36,22 @@
         <div class="col-lg-6">
           <img class="img-circle" src="1.jpg" alt="Generic placeholder image" width="300" height="300">
           <h2>الخريجين</h2>
-         <h5> <a href="gr_select.php">عرض الخريجين</a></h5><br/>
-       <h5>   <a href="gr_form.php">ادخال الخريجين</a></h5> 
+         
+       <h3>   <a href="gr_form.php">ادخال الخريجين</a></h3>
+       <h3> <a href="gr_select.php">عرض الخريجين</a></h3>
+       <h3>   <a href="select_grupdate.php">تعديل الخريجين</a></h3>
+       <h3>   <a href="select_grdelete.php">حذف الخريجين</a></h3>
+ 
         </div>
         <div class="col-lg-6">
           <img class="img-circle" src="2.jpg" alt="Generic placeholder image" width="300" height="300">
           <h2>الشركات</h2>
-         <h5> <a href="co_select.php">عرض الشركات</a></h5><br />
+         
+        <h3>  <a href="co_form.php">ادخال الشركات</a></h3>
+         <h3> <a href="co_select.php">عرض الشركات</a></h3>
+        <h3> <a href="select_coupdate.php">تعديل الشركات</a></h3>
+        <h3> <a href="select_coupdelete.php">حذف الشركات</a></h3>
 
-        <h5>  <a href="co_form.php">ادخال الشركات</a></h5>
-          
         </div>
        
         </div>
